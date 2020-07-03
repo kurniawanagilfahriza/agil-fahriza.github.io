@@ -1,0 +1,83 @@
+@media (max-width: 1000px) {
+  body {
+    flex-wrap: wrap;
+  }
+  header{
+
+   width: 100%;
+   flex-wrap: wrap;
+  }
+
+.top-wrapper {
+  background-size:cover;
+background-position:center;
+ flex-wrap: wrap;
+}
+.lesson-wrapper {
+  width: 100%;
+   flex-wrap: wrap;
+}
+.profile-wrapper {
+  width: 100%;
+   flex-wrap: wrap;
+}
+}
+
+@media (max-width: 670px) {
+   body {
+    flex-direction: column;
+  }
+   header{
+	   height: auto;
+    width: 100%;
+	margin: 0 auto;
+  }
+  .container div{
+
+	  width: 100%;
+	  position:center;
+  }
+  .header-left{
+	  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	  width: 100%;
+	  position:center;
+  }
+
+  .header-right {
+	    width: 100%;
+	  position:center;
+  }
+
+.header-right a{
+	  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	  margin: 0 auto;
+	   padding: 0 0px;
+	  position:center;
+    width: 100%;
+}
+
+.top-wrapper {
+padding: 350px 0 220px 0;
+background-size:cover;
+background-position:center;
+}
+
+.lesson-wrapper {
+  width: 100%;
+}
+
+.profile-wrapper {
+  width: 100%;
+}
+
+}
+
+footer {
+text-align: center;
+}
