@@ -125,6 +125,14 @@ header {
   text-align: center;
 }
 
+.profile-wrapper {
+  background-color: rgba(188, 143, 143, 0.4);
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -140,7 +148,17 @@ header {
   width: 25%;
 }
 
+.profile {
+  float: left;
+  width: 25%;
+}
+
 .lesson-icon {
+  position: relative;
+}
+
+.profile-icon {
+  border-radius: 4px;
   position: relative;
 }
 
